@@ -4,7 +4,7 @@
   "description": "Dating app using Express JS to handle routing",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
