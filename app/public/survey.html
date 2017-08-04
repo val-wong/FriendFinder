@@ -112,6 +112,9 @@
       $.post("/api/friends",newUser).done(function(data){
         console.log("adding new user");
       });
+      $.get("/api/friends", function(data){
+        console.log(data);
+      })
     });
   </script>
 
